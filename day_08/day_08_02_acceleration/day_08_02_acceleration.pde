@@ -1,6 +1,6 @@
 //----------------------------------------------------
 // DT Bootcamp 2014, Parsons the New School for Design. 
-// Day 8, speed
+// Day 8, speed + acceleration
 //----------------------------------------------------
 
 //Declaring the properties of our object:
