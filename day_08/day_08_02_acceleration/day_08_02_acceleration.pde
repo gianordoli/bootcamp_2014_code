@@ -10,6 +10,9 @@ float posY;
 float speedX;
 float speedY;
 
+//The acceleration will be an "environment" property
+float accel;
+
 void setup(){
   size(1033, 768);
   colorMode(HSB);
@@ -20,6 +23,9 @@ void setup(){
   posY = height/2;
   speedX = 0;
   speedY = 0;  
+  
+  //
+  accel = 0.95;
 }
 
 void draw(){
@@ -32,18 +38,24 @@ void draw(){
   //Add speed to the position
   posX = posX + speedX;
   posY = posY + speedY;
+  
+  //Change speed based on acceleration
+  //In this case, the acceleration will slowdown the object
+  //Think of it as a simulation of friction 
+  speedX = speedX * accel;
+  speedY = speedY * accel;
 }
 
 void keyPressed(){
   if(key == CODED){
     if(keyCode == UP){
-      speedY = -2;
+      speedY = -5;
     }else if(keyCode == DOWN){
-      speedY = 2;
+      speedY = 5;
     }else if(keyCode == LEFT){
-      speedX = -2;
+      speedX = -5;
     }else if(keyCode == RIGHT){
-      speedX = 2;
+      speedX = 5;
     }   
   }
 }
