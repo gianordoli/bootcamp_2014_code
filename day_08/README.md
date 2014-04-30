@@ -9,6 +9,6 @@
 
 ##Custom Functions  
 
-##Speed, acceleration, and collision  
+##Speed, acceleration, and collision
   
 ##Homework:
