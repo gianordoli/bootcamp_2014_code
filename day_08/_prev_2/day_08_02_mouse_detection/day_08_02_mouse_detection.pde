@@ -1,8 +1,7 @@
 //----------------------------------------------------
 // DT Bootcamp 2014, Parsons the New School for Design. 
 // Day 8, distance
-// Let's start with a simple sketch to measure the
-// distance to the mouse
+// Now checking if the mouse is over the ball
 //----------------------------------------------------
 
 //Declaring the properties of our object:
@@ -23,10 +22,15 @@ void setup(){
 void draw(){
   background(255);
   
+  float distance = dist(mouseX, mouseY, posX, posY);
+//  println(distance);  
+  
   noStroke();
-  fill(240, 240, 255);
+  if(distance < size/2){
+    fill(240, 240, 255);
+  }else{
+    fill(240, 240, 200);
+  }
   ellipse(posX, posY, size, size);
   
-  float distance = dist(mouseX, mouseY, posX, posY);
-  println(distance);
 }
