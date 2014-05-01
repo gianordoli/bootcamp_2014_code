@@ -1,7 +1,7 @@
 //----------------------------------------------------
 // DT Bootcamp 2014, Parsons the New School for Design. 
-// Day 8, random char
-// Let's add gravity to a text
+// Day 8, distance
+// Now measuring the distance to the mouse
 // Inspired by the work of Adrien M and Claire B
 // Borrowing some code from Daniel Shiffman's
 // "Learning Processing", Chapter 5
@@ -29,10 +29,17 @@ void setup(){
 }
 
 void draw(){
-  background(255);  
-  
+  background(255);
+
+  float distance = dist(mouseX, mouseY, posX, posY);
+  println(distance);
+
   noStroke();
-  fill(hue, 255, 230);
+  if(distance < size/2){
+    fill(hue, 150, 255);  
+  }else{
+    fill(hue, 255, 225);
+  }
   textSize(size);
   textAlign(CENTER, CENTER);
   text(c, posX, posY);
