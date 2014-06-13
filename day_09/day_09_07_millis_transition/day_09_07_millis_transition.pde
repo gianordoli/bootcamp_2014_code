@@ -17,11 +17,11 @@ void setup(){
   myFont = createFont("Helvetica-Bold", 42);
   
   bgColor = new color[5];
-  bgColor[0] = color(25, 240, 255);
-  bgColor[1] = color(255, 140, 25);
-  bgColor[2] = color(180, 140, 255);
-  bgColor[3] = color(60, 240, 175);
-  bgColor[4] = color(255, 110, 155);   
+  bgColor[0] = color(180, 140, 255);
+  bgColor[1] = color(25, 240, 255);
+  bgColor[2] = color(60, 240, 175);
+  bgColor[3] = color(255, 140, 25);
+  bgColor[4] = color(255, 110, 155);  
   
   //Each screen will stay on for 3 seconds
   interval = 3000;
