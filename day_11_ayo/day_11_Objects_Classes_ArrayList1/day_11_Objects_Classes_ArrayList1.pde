@@ -36,13 +36,7 @@ void draw() {
   b.collide();
   b.display();
 
-  c.move();
-  c.collide();
-  c.display();
-
-  d.move();
-  d.collide();
-  d.display();
+  
 }
 
 
@@ -112,28 +106,23 @@ class Alpha {
   }
 
   void  collide() {
-    //    for (int i = 0; i < numObj; i++) {
-    //      for (int j = 0; j < numObj; j++) {
-    //        //This is a nested for-loop!
-    //        //i: the current object we're drawing
-    //        //j: each other object we'l check collision with
-    //        if (i != j) {  //Do not check collision with itself!
-    //          if (dist(posX, posY, posX[j], posY[j]) < (size + size[j])/2) {
-    //            //Change 'i' object 
-    //            posX[i] = posX[i] - speedX[i]*2;  //Make it go back, so that it won't
-    //            posY[i] = posY[i] - speedY[i]*2;  //get stuck inside of another object
-    //            speedX[i] = speedX[i] * -0.8;
-    //            speedY[i] = speedY[i] * -0.8;         
-    //
-    //            //Change 'j' object 
-    //            posX[j] = posX[j] - speedX[j]*2;
-    //            posY[j] = posY[j] - speedY[j]*2;        
-    //            speedX[j] = speedX[j] * -0.8;
-    //            speedY[j] = speedY[j] * -0.8;
-    //          }
-    //        }
-    //      }
-    //    }
+    if (dist(a.posX, a.posY, b.posX, b.posY) < (b.size/2)) {
+      a.posX = a.posX - a.speedX*2;  //Make it go back, so that it won't
+      a.posY = a.posY - a.speedY*2;  //get stuck inside of another object
+      a.speedX = a.speedX * -0.8;
+      a.speedY = a.speedY * -0.8;         
+
+      b.posX = b.posX - b.speedX*2;
+      b.posY = b.posY - b.speedY*2;        
+      b.speedX = b.speedX * -0.8;
+      b.speedY = b.speedY * -0.8;
+    }
+    
+    
+
+
+
+
   }
 
   void display() {
