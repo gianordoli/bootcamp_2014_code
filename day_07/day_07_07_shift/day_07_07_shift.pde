@@ -3,6 +3,7 @@
 // Day 8, Arrays
 //
 // remeber the last positions
+// and shift the array 
 //----------------------------------------------------
 
 
