@@ -3,15 +3,24 @@
 -------------------------------------------------------------------
 
 ### DAY 2
+Using Variables
 
 ##Key Concepts
-* List key concepts
-* List key concepts
+* Defining variables
+* Basic data types
+* Declaring vs. initializing variables
+* Naming conventions (camelCase)
+* Basic system variables
+* Basic operators
+* Intro to debugging
+* Intro to interaction
+* Saving images
+* ProcessingJS for openProcessing
   
 ##Homework:
-Add homework description.
+Capture a procedural image - 
+* Parameterize day 1 homework - use variables and operators to change the sketch in some way over time
+* Try using system variables too
 
 ##References:
-* List some useful references
-* List some useful references
-* List some useful references
+* N/A
