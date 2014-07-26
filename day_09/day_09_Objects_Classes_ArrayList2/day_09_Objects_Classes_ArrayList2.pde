@@ -41,7 +41,6 @@ void keyPressed() {
     Alpha myletter = new Alpha(); 
    letters.add(myletter); }
    if (key == 'D' || key =='d') {/// use key D to delete objects from arraylist
-    //Alpha myletter = new Alpha();
     
     if (letters.size()>0){
    letters.remove(0); }
