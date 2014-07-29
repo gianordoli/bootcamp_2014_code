@@ -1,5 +1,5 @@
-float circleX = 0;
-float circleY = 0;
+float circleX = 100;
+float circleY = 100;
 float circleW = 220;
 float circleH = 400;
 float circleStroke = 255;
