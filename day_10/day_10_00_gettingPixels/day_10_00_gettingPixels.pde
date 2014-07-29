@@ -12,12 +12,12 @@
 PImage doge;
 
 //for walker
-/*
+
 int xpos;
 int ypos;
 float xchange;
 float ychange;
-*/
+
 
 void setup() {      
   size(500,500);    
@@ -31,16 +31,16 @@ void setup() {
   ychange = 0; 
   */
 }
-
+/*
 void draw() {       
 
   //1 draw image
-  image(doge,0,0);  //comment out drawing the actual image to illustrate
+  //image(doge,0,0);  //comment out drawing the actual image to illustrate
   // get color  
   color posColor = doge.get(mouseX,mouseY);
   // create shape
   fill(posColor);
-  ellipse(mouseX,mouseY,50,50);
+  //ellipse(mouseX,mouseY,50,50);
 
   //2 - using brightness to change shape
   //float posBrightness = brightness(posColor);
@@ -91,4 +91,19 @@ void draw() {
   fill(posColor);
   ellipse(xpos,ypos,2,2);
   */
+//}
+
+// second part - getting pixel data from just an image
+void draw() { 
+  noStroke();
+  for (int x = 0; x < width; x += 20) {
+    for (int y = 0; y < height; y += 20) {
+      fill(x, y, y-x);
+      rect(x, y, 20,20); 
+    }
+  }
+  //loadPixels(); 
+  color posColor = get(mouseX,mouseY);
+  fill(posColor);
+  ellipse(mouseX,mouseY,80,80);
 }
