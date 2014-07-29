@@ -66,6 +66,7 @@ improvement rather than base knowledge.
 * [openFrameworks Gallery](http://openframeworks.cc/gallery)
 * [Creative Applications](http://www.creativeapplications.net)
 * [Kim Assendorf’s pixel series](http://kimasendorf.com/)
+* [fyprocessing (tumblr)](http://fyprocessing.tumblr.com)
 
 #### Illustration
 * [Joshua Davis](http://www.joshuadavis.com)
