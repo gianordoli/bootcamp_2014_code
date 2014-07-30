@@ -5,8 +5,16 @@
 ### DAY 10
 
 ##Key Concepts
-* Calculation: [```abs()```](http://processing.org/reference/abs_.html), [```pow()```](http://processing.org/reference/abs_.html), [```sqrt()```](http://processing.org/reference/abs_.html)
-* Trigonometry: [```sin()```](http://processing.org/reference/sin_.html), [```cos()```](http://processing.org/reference/cos_.html), [```tan()```](http://processing.org/reference/tan_.html), [```atan2()```](http://processing.org/reference/atan2_.html)
+
+* PImage review
+* Image display 
+* Changing colors
+* Static and dynamic image processing
+* Libraries
+  * Minim
+* ControlP5
+* Video
+* pBox2D
   
 ##Homework:
 Work on your final projects!
