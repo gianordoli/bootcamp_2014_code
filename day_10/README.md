@@ -5,16 +5,16 @@
 ### DAY 10
 
 ##Key Concepts
-
-* PImage review
-* Image display 
-* Changing colors
-* Static and dynamic image processing
+* Pixel manipulation
+  * PImage review
+  * Image display 
+  * Changing colors
+  * Static and dynamic image processing
 * Libraries
   * Minim
-* ControlP5
-* Video
-* pBox2D
+  * ControlP5
+  * Video
+  * pBox2D
   
 ##Homework:
-Work on your final projects!
+Use pixel manipulation to make a self-portrait. Use either camera or image as a source.
