@@ -6,7 +6,7 @@
 
 ##Key Concepts
 * What is code?
-** Code as a tool
+⋅⋅* Code as a tool
 * How code works
 * Assignment: program your classmates
 * Creative coding projects
