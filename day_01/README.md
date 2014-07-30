@@ -19,7 +19,7 @@
 * setup(), draw()
 
 ##Homework:
-Add homework description.
+DRAW a scene, character or object. Use the elements we learned in class today. **Gold stars** if you can make it interact with the mouse.
 
 ##References:
 * List some useful references
