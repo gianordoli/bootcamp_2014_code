@@ -6,20 +6,18 @@
 
 ##Key Concepts
 * What is code?
-⋅⋅* Code as a tool
+* Code as a tool
 * How code works
 * Assignment: program your classmates
 * Creative coding projects
-* Processing
-* *
-processing IDE
-coordinate system
-setup(), draw()
-2d geometry
-commenting
-sketch properties
-color
-  
+* What is Processing?
+* Processing IDE
+* Coordinate system
+* 2d geometry
+* sketch properties
+* color
+* setup(), draw()
+
 ##Homework:
 Add homework description.
 
