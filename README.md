@@ -45,7 +45,16 @@ improvement rather than base knowledge.
 * **Plagiarism**: Plagiarism will result in an automatic failure. Working in groups and referring to online resources is a great way to learn and is completely acceptable. Trying to pass off the work of others as your own is not. Code examples, starting points, or collaborative work should be credited where credit is due.
 
 ## Syllabus
+* [Day 1](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_01/README.md)
+* [Day 2](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_02/README.md)
 * [Day 3](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_03/README.md)
+* [Day 4](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_04/README.md)
+* [Day 5](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_05/README.md)
+* [Day 6](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_06/README.md)
+* [Day 7](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_07/README.md)
+* [Day 8](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_08/README.md)
+* [Day 9](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_09/README.md)
+* [Day 10](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_10/README.md)
 
 ## Extra Material
 ### Tutorials
