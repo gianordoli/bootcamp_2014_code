@@ -45,7 +45,7 @@ improvement rather than base knowledge.
 * **Plagiarism**: Plagiarism will result in an automatic failure. Working in groups and referring to online resources is a great way to learn and is completely acceptable. Trying to pass off the work of others as your own is not. Code examples, starting points, or collaborative work should be credited where credit is due.
 
 ## Syllabus
-* I'll put these together after we all finish the README for each day
+* [Day 3](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_03/README.md)
 
 ## Extra Material
 ### Tutorials
