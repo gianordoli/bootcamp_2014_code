@@ -5,13 +5,14 @@
 ### DAY 5
 
 ##Key Concepts
-* List key concepts
-* List key concepts
+* Keyboard interaction
+* Booleans
+* Useful constants
+* Switch
+* 2d geometry (2): [```beginShape()```](http://processing.org/reference/beginShape_.html), [```bezier()```](http://processing.org/reference/bezier_.html), [```arc()```](http://processing.org/reference/arc_.html)
   
 ##Homework:
-Add homework description.
+Make a (cool) fake GUI.
 
 ##References:
-* List some useful references
-* List some useful references
-* List some useful references
+[GUIs from *Tron Legacy*](http://jtnimoy.com/blogs/projects/14881671)
