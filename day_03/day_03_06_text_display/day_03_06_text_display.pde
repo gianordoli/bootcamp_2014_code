@@ -8,6 +8,7 @@ void setup() {
 }
 
 void draw() {
+  background(255);
   textFont(font);
   textAlign(CENTER, CENTER);
   fill(0);
