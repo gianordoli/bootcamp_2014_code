@@ -5,13 +5,8 @@
 ### DAY 9
 
 ##Key Concepts
-* List key concepts
-* List key concepts
+* Objects and Classes
+* [```ArrayList```](http://processing.org/reference/ArrayList.html)
   
 ##Homework:
-Add homework description.
-
-##References:
-* List some useful references
-* List some useful references
-* List some useful references
+Work on your final projects!
