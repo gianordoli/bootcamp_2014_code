@@ -5,13 +5,14 @@
 ### DAY 11
 
 ##Key Concepts
-* List key concepts
-* List key concepts
-  
+* Custom Functions 2
+* Matrix transformations: [```pushMatrix()```](http://processing.org/reference/pushMatrix_.html), [```popMatrix()```](http://processing.org/reference/popMatrix_.html), [```translate()```](http://processing.org/reference/translate_.html), [```rotate()```](http://processing.org/reference/rotate_.html)
+* Time: [```millis()```](http://processing.org/reference/millis_.html), [```second()```](http://processing.org/reference/second_.html), [```minute()```](http://processing.org/reference/minute_.html), [```hour()```](http://processing.org/reference/hour_.html)
+
 ##Homework:
-Add homework description.
+Work on your final projects!
 
 ##References:
-* List some useful references
-* List some useful references
-* List some useful references
+* Matrix transformations:
+  * [Jer Thorp, "Avengers, Assembled and Visualized"](http://blog.blprnt.com/blog/blprnt/avengers-assembled-and-visualized-part-1)
+  * [Stefanie Posavec, “(En)tangled Word Bank”](http://www.stefanieposavec.co.uk/-everything-in-between/#/entangled-word-bank/)
