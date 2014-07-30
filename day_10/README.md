@@ -5,13 +5,8 @@
 ### DAY 10
 
 ##Key Concepts
-* List key concepts
-* List key concepts
+* Calculation: [```abs()```](http://processing.org/reference/abs_.html), [```pow()```](http://processing.org/reference/abs_.html), [```sqrt()```](http://processing.org/reference/abs_.html)
+* Trigonometry: [```sin()```](http://processing.org/reference/sin_.html), [```cos()```](http://processing.org/reference/cos_.html), [```tan()```](http://processing.org/reference/tan_.html), [```atan2()```](http://processing.org/reference/atan2_.html)
   
 ##Homework:
-Add homework description.
-
-##References:
-* List some useful references
-* List some useful references
-* List some useful references
+Work on your final projects!
