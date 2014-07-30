@@ -5,13 +5,12 @@
 ### DAY 4
 
 ##Key Concepts
-* List key concepts
-* List key concepts
+* Conditional statements
+* Comparison operators
+* Conditional operators
+* Nested if statements
+* Export applet
+* Buttons / Boundaries / Collision
   
 ##Homework:
-Add homework description.
-
-##References:
-* List some useful references
-* List some useful references
-* List some useful references
+Create a mouse driven "text adventure" with a few choices.
