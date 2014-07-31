@@ -1,5 +1,5 @@
 //----------------------------------------------------
-// DT Bootcamp 2013, Parsons the New School for Design. 
+// DT Bootcamp 2014, Parsons the New School for Design. 
 // Day 4, Example 7, Theme: "Speed"
 // Introduces the concept of "speed" in animation
 // The x and y positions of objects do not need to be directly manipulated.

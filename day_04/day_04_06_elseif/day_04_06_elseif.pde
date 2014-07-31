@@ -1,5 +1,5 @@
 //----------------------------------------------------
-// DT Bootcamp 2013, Parsons the New School for Design. 
+// DT Bootcamp 2014, Parsons the New School for Design. 
 // Day 4, Example 6, Theme: If/Else if
 // More advanced use of if, and else if.
 // This is combined and built upon the previous knowledge of animation and mouse interaction

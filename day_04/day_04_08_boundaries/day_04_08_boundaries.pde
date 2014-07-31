@@ -1,5 +1,5 @@
 //----------------------------------------------------
-// DT Bootcamp 2013, Parsons the New School for Design. 
+// DT Bootcamp 2014, Parsons the New School for Design. 
 // Day 4, Example 8, Theme: Setting boundaries.
 // Introduces the concept of creating artificial "boundaries" on the edges of the screen using if statements.
 // We can use if statements to prevent the circle's position from being greater than the width of the window or less than 0 (the left edge)
