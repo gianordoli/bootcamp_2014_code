@@ -16,3 +16,4 @@ Make a (cool) fake GUI.
 
 ##References:
 [GUIs from *Tron Legacy*](http://jtnimoy.com/blogs/projects/14881671)
+[*The Art of Asking your Boss for a Raise*, by Georges Perec](), also check out the [interactive version of the same flow chart](http://www.theartofaskingyourbossforaraise.com/)
