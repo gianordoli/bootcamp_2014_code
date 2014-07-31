@@ -6,8 +6,8 @@
 
 ##Key Concepts
 * Conditional statements
-* Comparison operators
-* Conditional operators
+* Relational operators
+* Logical operators
 * Nested if statements
 * Export applet
 * Buttons / Boundaries / Collision
