@@ -13,4 +13,8 @@
 * Buttons / Boundaries / Collision
   
 ##Homework:
-Create a mouse driven "text adventure" with a few choices.
+Create a navigable system based on triggering spaces using boolean logic.
+
+Some Possible Ideas:
+* Make a map based on the path of the cursor - Create a story with mouse position indicating user-choices.
+* Create a ridiculous flowchart
