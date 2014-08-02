@@ -1,87 +1,88 @@
 
 import processing.video.*;
-  // Size of each cell in the grid
-  int videoScale = 5;
-  // Number of columns and rows in our system
-  int cols, rows;
-  // Variable for capture device
-  Capture video;
+import processing.pdf.*;
+
+// Size of each cell in the grid
+int videoScale = 10;
+// Number of columns and rows in our system
+int cols, rows;
+// Variable for capture device
+Capture video;
+
+boolean recordPDF = false;
 
 void setup() {
-  size(640,480);
+  size(640, 480);
   // Initialize columns and rows
   cols = width/videoScale;
   rows = height/videoScale;
-  noSmooth();
+  //noSmooth();
   // Construct the Capture object
-  video = new Capture(this,cols,rows,25);
+  video = new Capture(this, cols, rows, 25);
   video.start();
+
+  colorMode(HSB);
 }  
 
 void draw() {
+  
+  if (recordPDF == true) {
+    beginRecord(PDF, "pdf-####.pdf");
+  }
   if (video.available()) {
     video.read();
   }
   background(0);
   video.loadPixels();
-  
+
   // Begin loop for columns
   for (int i = 0; i < cols; i++) { // Begin loop for rows
     for (int j = 0; j < rows; j++) {
       int x = i * videoScale;
       int y = j * videoScale;
-      int loc = (video.width - i - 1) + j* video.width;
-      // Each rect is colored white with a size determined by brightness
+      //int loc = (video.width - i - 1) + j* video.width; //mirror
+      int loc = i + j * video.width;  //standard
       color c = video.pixels[loc];
       float sz = (brightness(c)/255.0)*videoScale;
+
+      //size pulse
+      //float sz = (brightness(c)/255.0) *  10 * sin(frameCount * 0.1);
+
+      //size mouse-based pulse
+      //float s = dist(mouseX, mouseY, x, y);
+      //float sz = (brightness(c)/255.0) * map(s, 0, width/2, 1, 20) + sin(frameCount * 0.01) * 10;
+
+      //regular rectangles
       rectMode(CENTER);
       fill(255);
       noStroke();
-      rect(x + videoScale/2,y+videoScale/2,sz,sz);
+      //rect(x + videoScale/2, y+videoScale/2, sz, sz);
+
+      //points
+      //      stroke(brightness(c));
+      //      point(x,y);
+
+      //colors and rotations
+      pushMatrix();
+      translate(x + videoScale/2, y+videoScale/2);
+      float newHue = map(brightness(c), 0, 255, 0, 255);
+      fill(newHue, 100, 255);
+      rotate(radians(mouseX * 0.1) + brightness(c));
+
+      rectMode(CENTER);
+      rect(0, 0, sz, sz);
+      popMatrix();
     }
   }
+  
+  
+  if (recordPDF == true) {
+    endRecord();
+    recordPDF = false;
+  }  
 }
 
+void mousePressed() {
+  recordPDF = true;
+}
 
-/*
-import processing.video.*;
-// Two global variables
-float x;
-float y;
-// Variable to hold onto Capture object
-Capture video;
-void setup() {
-  size(320,240);
-  smooth();
-  // framerate(30);
-  background(0);
-  // Start x and y in the center
-  x = width/2;
-y = height/2;
-  // Start the capture process
-  video = new Capture(this,width,height,15);
-  video.start();
-}
-void draw() {
-  // Read image from the camera
-  if (video.available()) {
-   video.read();
-  }
-  video.loadPixels();
-  // Pick a new x and y
-  float newx = constrain(x + random(-20,20),0,width-1); 
-  float newy = constrain(y + random(-20,20),0,height-1);
-  // Find the midpoint of the line
-  int midx = int((newx + x) / 2);
-  int midy = int((newy + y) / 2);
-  // Pick the color from the video, reversing x
-  color c =  video.pixels[(width-1-midx) + midy*video.width];
-  // Draw a line from x,y to the newx,newy
-  stroke(c);
-  strokeWeight(4);
-  line(x,y,newx,newy);
-  // Save newx, newy in x,y
-  x = newx;
-  y = newy;
-}
-*/

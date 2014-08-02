@@ -17,6 +17,7 @@ void draw() {
   if (video.available()) {
     video.read(); 
     //image(video, 0, 0);
+    filter(POSTERIZE,4);
     video.loadPixels(); 
     for (int x = 0; x < width; x++ ) {
       for (int y = 0; y < height; y++ ) { 
