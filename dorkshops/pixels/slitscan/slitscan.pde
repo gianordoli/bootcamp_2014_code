@@ -21,7 +21,7 @@ void draw() {
     video.loadPixels(); 
     for (int x = 0; x < width; x++ ) {
       for (int y = 0; y < height; y++ ) { 
-        if (x == 320) {     
+        if (x == 320){//xx) {     
           color c = video.get(x, y);
           int loc = x + y * width; 
           stroke(c);
