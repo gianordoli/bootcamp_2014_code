@@ -1,15 +1,17 @@
 int[] xpos = new int[50];
 int[] ypos = new int[50];
 
+
 void setup() { 
-  size(400,300);
+  size(600,600);
+  noCursor(); 
   for (int i = 0; i < xpos.length; i++) {
     xpos[i] = 0; 
     ypos[i] = 0;
   }
 }
 void draw() {
-  background(190);
+  background(0);
   xpos[xpos.length-1] = mouseX;
   ypos[ypos.length-1] = mouseY;
   for (int i = 0; i < xpos.length-1; i++) {
