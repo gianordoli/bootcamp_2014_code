@@ -57,6 +57,14 @@ improvement rather than base knowledge.
 * [Day 10](https://github.com/gianordoli/bootcamp_2014_code/blob/master/day_10/README.md)
 
 ## Extra Material
+### Readings
+* ["Art, Emergence, and the Computational Sublime," Jon McCormack and Alan Dorin](http://www.csse.monash.edu.au/~jonmc/research/Papers/art-2it.pdf?q=emergence)
+* ["Up and Down the Ladder of Abstraction," Bret Victor](http://worrydream.com/LadderOfAbstraction/)
+* [*10 PRINT*, Nick Montfort, Patsy Baudoin, John Bell, Ian Bogost
+Jeremy Douglass, Mark C. Marino, Michael Mateas
+Casey Reas, Mark Sample, and Noah Vawter](http://10print.org/)
+* [*A Manifesto for Postindustrial Design*, Jamer Hunt](http://dcrit.sva.edu/view/readingroom/a-manifesto-for-postindustrial-design/)
+
 ### Tutorials
 * [Daniel Shiffman, Learning Processing](http://www.learningprocessing.com)
 * [Daniel Shiffman, Nature of Code](http://natureofcode.com/book)
