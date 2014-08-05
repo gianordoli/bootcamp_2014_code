@@ -15,13 +15,6 @@ void setup() {
 void draw() {
 background(0);
 
-// by feeding the for loops more complex code, we can easily create some very
-// cool interactions. This is based off of one I made last year when I was first toying around
-// with nested for loops.
-
-// the screen is filled up by 2,500 small ellipses, which change color
-// based upon how close the mouse is to them.
-
   // here, the first for loop iterates between fifty columns
   for(int i = 0; i < 50; i++) {
     // while the second fills each column with fifty rows.
@@ -34,32 +27,19 @@ background(0);
 }
 
 void setCircleCoordinates (int x, int y) {
-  // each ellipse has its x displaced by the iterating test of the first loop ("i")
-  // while their y coordinates are displaced by that of the second loop ("j")
   circleX = 5+(x*10);
   circleY = 5+(y*10);
 }
 
 void setFillRelativeToMouse() {
-  // this looks more complicated than it is. Let's work backwards through it:
-  // dist: first we must gather the distance between the mouse and the circle in question.
-  // map: we then map this distance to being between 255 and 0.
-      // fun trick: the smaller we make the "map from" values, the smaller
-      // we make the "flashlight" in the end.
-  // int: map returns a float, which we can't use. We need to force it into an int.
   
   fillColor = int(map(dist(mouseX, mouseY, circleX, circleY), 0, 250, 255, 0));
-  // funny story: because of how we mapped things, if you remove the if() statement,
-  //  you get shades of white and yellow instead of black.
-  
-  // this if() statement makes sure that we don't get color weirdness from the fill
-  // being a negative number.
+
   if (fillColor <= 0) {fillColor = 0; };
   fill(fillColor);
   noStroke();
 }
 
 void drawOneCircle() {
-  // remember - we only have to draw one circle. The for loop does the rest.
   ellipse(circleX, circleY, 10, 10);
 }

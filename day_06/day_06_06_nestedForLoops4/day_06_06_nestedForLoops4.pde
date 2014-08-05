@@ -5,14 +5,6 @@
 // written by Dylan Shad
 //----------------------------------------------------
 
-// this builds off of pt 2 by adding another dimension:
-// simply by introducing a variable diameter to the
-// circles as we hover over them, we can work in a very
-// different sensation of "space" and "feel."
-// also, this is another example that I initially wrote
-// during last year's bootcamp when I was learning code.
-
-// these initializations should look familiar, except...
 int fillColor;
 float circleX;
 float circleY;
@@ -56,10 +48,7 @@ void setFillRelativeToMouse() {
 }
 
 void setDiameterRelativeToMouse() {
-  // very simple and straightforward, and yet it yields great results!
-  // the diameter of each circle is equal to the distance between it
-  // and the mouse! In other words: each circle will resize itself to
-  // fill half the distance between the itself and the mouse.
+
   diameter = dist(mouseX, mouseY, circleX, circleY);
 }
 
