@@ -1,0 +1,3 @@
+[submodule "_dorkshops/data_visualization"]
+	path = _dorkshops/data_visualization
+	url = https://github.com/gianordoli/bootcamp_2014_data_visualization_workshop.git
