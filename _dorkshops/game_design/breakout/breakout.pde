@@ -1,3 +1,9 @@
+//SIMPLE BREAKOUT
+//for MFADT bootcamp 2014
+//bryan ma - @whoisbma
+//Simplified version of Steph Thirion's GAME MOD version of breakout:
+//http://www.trsp.net/teaching/gamemod/
+
 Paddle paddle;
 Ball ball;
 Brick[] bricks;
